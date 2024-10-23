@@ -14,7 +14,7 @@
                 <div class="product-item">
                     <div class="product-img">
                         <span class="type new">New</span>
-                        <a href="#"><img src="{{ asset('products/' . $item->product_image) }}" alt="{{ $item->name }}"></a>
+                        <a href="#"><img src="{{ asset('uploads/products/' . $item->product_image) }}" alt="{{ $item->name }}"></a>
                         <div class="product-action-wrap">
                             <div class="product-action">
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#quickview" data-tooltip="tooltip" title="Quick View"><i class="far fa-eye"></i></a>

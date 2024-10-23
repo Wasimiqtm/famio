@@ -15,7 +15,7 @@
                     <a href="#">
                         <div class="category-info">
                             <div class="icon">
-                                <img src="{{ asset('categories/' . $category->image) }}" alt="{{ $category->name }}">
+                                <img src="{{ asset('uploads/categories/' . $category->image) }}" alt="{{ $category->name }}">
                             </div>
                             <div class="content">
                                 <h4>{{ $category->name }}</h4>

@@ -15,7 +15,7 @@
                     <div class="product-img">
                         <span class="type new">New</span>
                         <a href="#">
-                            <img src="{{ asset('products/' . $item->product_image) }}" alt="{{ $item->product_name }}">
+                            <img src="{{ asset('uploads/products/' . $item->product_image) }}" alt="{{ $item->product_name }}">
                         </a>
                         <div class="product-action-wrap">
                             <div class="product-action">
